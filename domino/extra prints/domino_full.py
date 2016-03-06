@@ -62,7 +62,7 @@ class Board:
             self.board.appendleft(domino.inverted())
         else:
             raise Exception('{0} cannot be added to the left of'
-                            ' the board- numbers do not match!'.format(domino))
+                            ' the board - numbers do not match!'.format(domino))
 
     def add_right(self, domino):
         if not self.board or domino.first == self.right_end():
@@ -87,17 +87,10 @@ class Player:
         self.behaviors = { 1: self.random,
                            2 : self.greedy,
                            3 : self.defensive,
-                           4 : self.reverse_greedy,
-                           5 : self.cooperative,
-                           6: self.offensive,
                            "random": self.random,
                            "greedy": self.greedy,
-                           "defensive": self.defensive,
-                           "reverse_greedy": self.reverse_greedy,
-                           "cooperative": self.cooperative,
-                           "offensive": self.offensive
+                           "defensive": self.defensive
         }
-        self.has_played = []
 
     def has_empty_hand(self):
         has = bool(len(self.hand))
@@ -129,83 +122,32 @@ class Player:
 
         return moves
 
-    def move_selection(self, moves, players, index):
+    def move_selection(self, moves):
         if(len(moves) == 0):
             return None
         else:
-            return self.behaviors[self.attribute](moves, players, index)
+            return self.behaviors[self.attribute](moves)
 
-    def greedy(self, dominos, players, turn):
+    def greedy(self, dominos):
         best = Domino(0,0)
         for domino in dominos:
             if domino >= best:
                 best = domino
-
+                print "critical decision made!"
         return best
 
-    def defensive(self, dominos, players, turn):
+    def defensive(self, dominos):
         best = dominos[0]
         for domino in dominos:
             if (domino.is_double() is True):
+                print "critical decision made! double found."
                 return domino
             elif (domino >= best):
                 best = domino
         return best
 
-    def reverse_greedy(self, dominos, players, turn):
-        best = Domino(6,6)
-        for domino in dominos:
-            if domino <= best:
-                best = domino
-        return best
-
-    def random(self, dominos, players, turn):
+    def random(self, dominos):
         return dominos[0]
-
-    def cooperative(self, dominos, players, turn):
-        best = dominos[0]
-        updated = False
-        teammate_index = (turn + 2) % 4
-
-        for domino in dominos:
-            for team_domino in players[teammate_index].has_played:
-                if(domino == team_domino):
-                    if (domino.is_double() is True):
-                        return domino
-                    elif (domino >= best):
-                        best = domino
-                        updated = True
-        if updated is True:
-            return best
-        else:
-            return self.random(dominos, players, turn)
-
-    def offensive(self, dominos, players, turn):
-        best = dominos[0]
-        updated = False
-        opponent_indices = [0,0]
-        opponent_indices[0] = (turn + 1) % 4
-        opponent_indices[1] = (turn + 3) % 4
-
-        for domino in dominos:
-            for opp_domino in players[opponent_indices[0]].has_played:
-                if(domino == opp_domino):
-                    if (domino.is_double() is True):
-                        return domino
-                    elif (domino >= best):
-                        best = domino
-                        updated = True
-            for opp_domino in players[opponent_indices[1]].has_played:
-                if(domino == opp_domino):
-                    if (domino.is_double() is True):
-                        return domino
-                    elif (domino >= best):
-                        best = domino
-                        updated = True
-        if updated is True:
-            return best
-        else:
-            return self.random(dominos, players, turn)
 
     def __str__(self):
         return ''.join([str(domino) for domino in self.board])
@@ -214,6 +156,8 @@ class Player:
 
 class Game:
     def __init__(self, starting_player=0, starting_dom=None, team_attrs=[0,0]):
+        print "GAME: STARTING DOMINO ="
+        print starting_dom
 
         self.board = Board()
         # generate players
@@ -241,7 +185,9 @@ class Game:
         attr_index = 0
         for hand in hands:
             self.players.append(Player(hand, team_attrs[attr_index % 2]))
+            print "adding player with attribute {0}".format(team_attrs[attr_index%2])
             attr_index += 1
+        self.print_player_hands()
 
     def randomized_hands(self):
         dominos = [Domino(i, j) for i in range(7) for j in range(i, 7)]
@@ -265,15 +211,15 @@ class Game:
         left_end, right_end = self.board.ends()
 
         moves = curr_player.valid_moves(left_end, right_end)
-        domino_move = curr_player.move_selection(moves, self.players, self.turn_index)
+        domino_move = curr_player.move_selection(moves)
         return self.commit_move(curr_player, domino_move)
 
     def commit_move(self, curr_player, domino_move):
+        print "adding move {0}! domino is {1}".format(self.turn_number, domino_move)
         self.turn_number += 1
         if not self.board:
             self.board.add_right(domino_move)
             curr_player.hand.remove(domino_move)
-            curr_player.has_played.append(domino_move)
             self.turn_index = (self.turn_index + 1) % 4
             self.turn = self.players[self.turn_index]
             return False
@@ -287,9 +233,11 @@ class Game:
                 self.board.add_right(domino_move)
             
             curr_player.hand.remove(domino_move)
-            curr_player.has_played.append(domino_move)
 
             if (curr_player.has_empty_hand() is True):
+                print len(curr_player.hand)
+                print "empty hand!"
+                #self.print_player_hands()
                 self.end_game()
                 return True
             else:
@@ -298,6 +246,8 @@ class Game:
                 return False
         else:
             if (self.is_stuck()):
+                print "board stuck!"
+                #self.print_player_hands()
                 self.end_stuck_game()
                 return True
             else:
@@ -308,6 +258,7 @@ class Game:
         return False
 
     def end_game(self):
+        print(self.board)
         winning_team = self.turn_index % 2
         losing_team = (self.turn_index + 1) % 2
 
@@ -327,10 +278,12 @@ class Game:
         return True
 
     def end_stuck_game(self):
-        self.scores[0] = self.players[0].remaining_pts() 
-        self.scores[0] += self.players[2].remaining_pts()
-        self.scores[1] = self.players[1].remaining_pts() 
-        self.scores[1] += self.players[3].remaining_pts()
+        print(self.board)
+        self.scores[0] = self.players[0].remaining_pts() + self.players[2].remaining_pts()
+        print "scores [0]: {0}".format(self.scores[0])
+        self.scores[1] = self.players[1].remaining_pts() + self.players[3].remaining_pts()
+        print "scores [1]: {0}".format(self.scores[1])
+
 
     def result(self):
         return self.turn_index, self.scores[0], self.scores[1]
@@ -354,6 +307,7 @@ class Series:
             result = game.result()
 
             last_mover, points0, points1 = result
+            print result
 
             self.scores[0] += points0
             self.scores[1] += points1

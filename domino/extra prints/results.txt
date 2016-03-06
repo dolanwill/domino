@@ -1,0 +1,1960 @@
+Hello!
+Available team attributes: [1. random] [2. greedy] [3. defensive]
+
+Select team 1's attribute: Select team 2's attribute: Please enter the number of sets you wish to be played
+GAME: STARTING DOMINO =
+[6|6]
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[1|3]
+[1|1]
+[3|4]
+[1|5]
+[4|6]
+[2|6]
+[1|6]
+player 1
+[4|4]
+[0|2]
+[6|6]
+[0|0]
+[0|6]
+[0|5]
+[2|2]
+player 2
+[2|3]
+[2|5]
+[3|5]
+[3|6]
+[5|6]
+[2|4]
+[5|5]
+player 3
+[0|1]
+[3|3]
+[0|3]
+[1|2]
+[1|4]
+[4|5]
+[0|4]
+adding move 0! domino is [6|6]
+adding move 1! domino is [3|6]
+critical decision made!
+adding move 2! domino is [3|3]
+adding move 3! domino is [1|3]
+critical decision made!
+adding move 4! domino is [0|6]
+adding move 5! domino is None
+critical decision made!
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 6! domino is [1|4]
+adding move 7! domino is [3|4]
+critical decision made!
+critical decision made!
+adding move 8! domino is [0|5]
+adding move 9! domino is [2|3]
+critical decision made!
+critical decision made!
+adding move 10! domino is [4|5]
+adding move 11! domino is [4|6]
+critical decision made!
+critical decision made!
+adding move 12! domino is [2|2]
+adding move 13! domino is [2|5]
+adding move 14! domino is None
+adding move 15! domino is [1|5]
+adding move 16! domino is None
+adding move 17! domino is [5|6]
+critical decision made!
+critical decision made!
+adding move 18! domino is [1|2]
+adding move 19! domino is [2|6]
+adding move 20! domino is None
+adding move 21! domino is [3|5]
+critical decision made!
+adding move 22! domino is [0|3]
+adding move 23! domino is [1|6]
+critical decision made!
+adding move 24! domino is [0|2]
+adding move 25! domino is [2|4]
+critical decision made!
+critical decision made!
+adding move 26! domino is [0|4]
+adding move 27! domino is [1|1]
+0
+empty hand!
+[1|1][1|6][6|2][2|1][1|5][5|2][2|2][2|3][3|4][4|1][1|3][3|3][3|6][6|6][6|0][0|5][5|4][4|6][6|5][5|3][3|0][0|2][2|4][4|0]
+(0, 19, 0)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[1|2]
+[2|4]
+[3|4]
+[5|5]
+[0|2]
+[3|5]
+[1|5]
+player 1
+[0|1]
+[5|6]
+[2|2]
+[0|6]
+[4|6]
+[2|5]
+[1|1]
+player 2
+[2|6]
+[0|5]
+[0|3]
+[4|5]
+[0|4]
+[3|3]
+[1|6]
+player 3
+[6|6]
+[4|4]
+[1|3]
+[0|0]
+[2|3]
+[1|4]
+[3|6]
+adding move 0! domino is [1|2]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 1! domino is [2|5]
+adding move 2! domino is [0|5]
+critical decision made!
+critical decision made!
+adding move 3! domino is [1|4]
+adding move 4! domino is [2|4]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 5! domino is [0|6]
+adding move 6! domino is [2|6]
+critical decision made!
+adding move 7! domino is [6|6]
+adding move 8! domino is None
+critical decision made!
+adding move 9! domino is [5|6]
+adding move 10! domino is [4|5]
+critical decision made!
+critical decision made!
+adding move 11! domino is [3|6]
+adding move 12! domino is [3|4]
+adding move 13! domino is None
+adding move 14! domino is [0|3]
+critical decision made!
+critical decision made!
+adding move 15! domino is [2|3]
+adding move 16! domino is [0|2]
+critical decision made!
+adding move 17! domino is [2|2]
+adding move 18! domino is None
+board stuck!
+[2|2][2|0][0|3][3|4][4|5][5|6][6|6][6|2][2|4][4|1][1|2][2|5][5|0][0|6][6|3][3|2]
+scores [0]: 41
+scores [1]: 25
+(2, 41, 25)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[1|6]
+[5|5]
+[0|3]
+[3|5]
+[0|1]
+[3|4]
+[5|6]
+player 1
+[0|5]
+[3|3]
+[3|6]
+[1|4]
+[0|4]
+[1|2]
+[4|5]
+player 2
+[2|3]
+[0|6]
+[2|6]
+[1|1]
+[2|4]
+[2|2]
+[1|3]
+player 3
+[6|6]
+[4|6]
+[4|4]
+[0|2]
+[0|0]
+[1|5]
+[2|5]
+adding move 0! domino is [2|3]
+critical decision made!
+critical decision made!
+adding move 1! domino is [2|5]
+adding move 2! domino is [5|5]
+critical decision made!
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 3! domino is [4|5]
+adding move 4! domino is [2|4]
+critical decision made!
+adding move 5! domino is [0|2]
+adding move 6! domino is [0|3]
+critical decision made!
+critical decision made!
+adding move 7! domino is [3|6]
+adding move 8! domino is [0|6]
+critical decision made!
+adding move 9! domino is [0|0]
+adding move 10! domino is [3|5]
+critical decision made!
+adding move 11! domino is [0|5]
+adding move 12! domino is None
+critical decision made!
+adding move 13! domino is [1|5]
+adding move 14! domino is [1|6]
+adding move 15! domino is None
+adding move 16! domino is [2|6]
+adding move 17! domino is None
+adding move 18! domino is [5|6]
+critical decision made!
+adding move 19! domino is [1|2]
+adding move 20! domino is [1|1]
+critical decision made!
+adding move 21! domino is [6|6]
+adding move 22! domino is [0|1]
+critical decision made!
+adding move 23! domino is [0|4]
+adding move 24! domino is None
+critical decision made!
+adding move 25! domino is [4|6]
+adding move 26! domino is None
+board stuck!
+[6|4][4|0][0|1][1|1][1|2][2|6][6|1][1|5][5|0][0|0][0|6][6|3][3|0][0|2][2|4][4|5][5|5][5|2][2|3][3|5][5|6][6|6]
+scores [0]: 15
+scores [1]: 19
+(0, 15, 19)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[5|6]
+[5|5]
+[0|1]
+[2|6]
+[3|4]
+[0|4]
+[1|1]
+player 1
+[0|2]
+[3|6]
+[4|5]
+[1|6]
+[3|5]
+[1|4]
+[2|4]
+player 2
+[1|3]
+[4|4]
+[0|0]
+[2|3]
+[4|6]
+[0|3]
+[2|2]
+player 3
+[6|6]
+[0|6]
+[2|5]
+[1|2]
+[1|5]
+[3|3]
+[0|5]
+adding move 0! domino is [5|6]
+critical decision made!
+critical decision made!
+adding move 1! domino is [4|5]
+adding move 2! domino is [4|4]
+critical decision made!
+adding move 3! domino is [6|6]
+adding move 4! domino is [2|6]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 5! domino is [2|4]
+adding move 6! domino is [2|3]
+critical decision made!
+adding move 7! domino is [2|5]
+adding move 8! domino is [5|5]
+critical decision made!
+adding move 9! domino is [3|6]
+adding move 10! domino is [4|6]
+critical decision made!
+adding move 11! domino is [1|5]
+adding move 12! domino is [0|1]
+critical decision made!
+critical decision made!
+adding move 13! domino is [1|4]
+adding move 14! domino is [1|3]
+critical decision made!
+critical decision made!
+adding move 15! domino is [3|3]
+adding move 16! domino is [3|4]
+critical decision made!
+adding move 17! domino is [0|2]
+adding move 18! domino is [2|2]
+critical decision made!
+adding move 19! domino is [1|2]
+adding move 20! domino is [0|4]
+critical decision made!
+adding move 21! domino is [1|6]
+adding move 22! domino is [0|0]
+critical decision made!
+adding move 23! domino is [0|6]
+adding move 24! domino is None
+board stuck!
+[6|0][0|0][0|4][4|3][3|3][3|1][1|4][4|6][6|3][3|2][2|4][4|4][4|5][5|6][6|6][6|2][2|5][5|5][5|1][1|0][0|2][2|2][2|1][1|6]
+scores [0]: 5
+scores [1]: 13
+(0, 5, 13)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[4|5]
+[1|3]
+[6|6]
+[0|1]
+[0|4]
+[5|6]
+[2|5]
+player 1
+[2|3]
+[3|4]
+[5|5]
+[1|1]
+[3|3]
+[4|6]
+[2|6]
+player 2
+[1|4]
+[0|3]
+[4|4]
+[0|5]
+[1|5]
+[0|2]
+[2|4]
+player 3
+[1|6]
+[0|0]
+[3|5]
+[3|6]
+[2|2]
+[1|2]
+[0|6]
+adding move 0! domino is [4|5]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 1! domino is [4|6]
+adding move 2! domino is [0|5]
+critical decision made!
+critical decision made!
+adding move 3! domino is [3|6]
+adding move 4! domino is [1|3]
+critical decision made!
+adding move 5! domino is [1|1]
+adding move 6! domino is [1|4]
+critical decision made!
+critical decision made!
+adding move 7! domino is [0|6]
+adding move 8! domino is [6|6]
+critical decision made!
+critical decision made!
+adding move 9! domino is [2|6]
+adding move 10! domino is [4|4]
+critical decision made!
+adding move 11! domino is [2|2]
+adding move 12! domino is [0|4]
+critical decision made!
+adding move 13! domino is [2|3]
+adding move 14! domino is [0|3]
+critical decision made!
+adding move 15! domino is [3|5]
+adding move 16! domino is [5|6]
+critical decision made!
+adding move 17! domino is [3|4]
+adding move 18! domino is [2|4]
+critical decision made!
+adding move 19! domino is [1|6]
+adding move 20! domino is [0|1]
+adding move 21! domino is None
+adding move 22! domino is [0|2]
+critical decision made!
+adding move 23! domino is [1|2]
+adding move 24! domino is [2|5]
+0
+empty hand!
+[1|2][2|0][0|1][1|6][6|5][5|3][3|0][0|4][4|4][4|1][1|1][1|3][3|6][6|4][4|5][5|0][0|6][6|6][6|2][2|2][2|3][3|4][4|2][2|5]
+(0, 22, 0)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[1|2]
+[3|4]
+[2|2]
+[4|4]
+[2|4]
+[4|5]
+[3|3]
+player 1
+[0|2]
+[1|4]
+[3|6]
+[0|5]
+[1|1]
+[1|3]
+[1|6]
+player 2
+[0|0]
+[0|1]
+[0|3]
+[6|6]
+[1|5]
+[0|4]
+[2|6]
+player 3
+[3|5]
+[5|6]
+[2|3]
+[0|6]
+[4|6]
+[2|5]
+[5|5]
+adding move 0! domino is [1|2]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 1! domino is [1|6]
+adding move 2! domino is [6|6]
+critical decision made!
+adding move 3! domino is [5|6]
+adding move 4! domino is [2|2]
+critical decision made!
+critical decision made!
+adding move 5! domino is [0|5]
+adding move 6! domino is [0|0]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 7! domino is [2|5]
+adding move 8! domino is [4|5]
+critical decision made!
+critical decision made!
+adding move 9! domino is [1|4]
+adding move 10! domino is [0|1]
+adding move 11! domino is None
+adding move 12! domino is None
+critical decision made!
+critical decision made!
+adding move 13! domino is [1|3]
+adding move 14! domino is [0|3]
+critical decision made!
+adding move 15! domino is [0|6]
+adding move 16! domino is None
+critical decision made!
+adding move 17! domino is [3|6]
+adding move 18! domino is [1|5]
+critical decision made!
+critical decision made!
+adding move 19! domino is [5|5]
+adding move 20! domino is [3|4]
+adding move 21! domino is None
+adding move 22! domino is [0|4]
+critical decision made!
+adding move 23! domino is [3|5]
+adding move 24! domino is [3|3]
+critical decision made!
+adding move 25! domino is [0|2]
+adding move 26! domino is [2|6]
+0
+empty hand!
+[6|2][2|0][0|4][4|3][3|6][6|0][0|3][3|1][1|0][0|0][0|5][5|6][6|6][6|1][1|2][2|2][2|5][5|4][4|1][1|5][5|5][5|3][3|3]
+(2, 31, 0)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[4|5]
+[0|6]
+[1|4]
+[3|6]
+[0|1]
+[1|3]
+[1|6]
+player 1
+[0|2]
+[0|5]
+[3|3]
+[1|1]
+[2|6]
+[2|2]
+[1|2]
+player 2
+[5|6]
+[3|4]
+[3|5]
+[4|6]
+[0|4]
+[1|5]
+[2|5]
+player 3
+[4|4]
+[2|3]
+[5|5]
+[0|0]
+[2|4]
+[6|6]
+[0|3]
+adding move 0! domino is [5|6]
+critical decision made!
+critical decision made!
+adding move 1! domino is [6|6]
+adding move 2! domino is [4|5]
+critical decision made!
+adding move 3! domino is [2|6]
+adding move 4! domino is [3|4]
+critical decision made!
+critical decision made!
+adding move 5! domino is [2|4]
+adding move 6! domino is [1|4]
+critical decision made!
+adding move 7! domino is [3|3]
+adding move 8! domino is [3|5]
+critical decision made!
+adding move 9! domino is [5|5]
+adding move 10! domino is [0|1]
+critical decision made!
+critical decision made!
+adding move 11! domino is [0|5]
+adding move 12! domino is [0|4]
+critical decision made!
+adding move 13! domino is [4|4]
+adding move 14! domino is [0|6]
+adding move 15! domino is None
+adding move 16! domino is [4|6]
+adding move 17! domino is None
+adding move 18! domino is [3|6]
+adding move 19! domino is None
+adding move 20! domino is None
+critical decision made!
+adding move 21! domino is [2|3]
+adding move 22! domino is [1|6]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 23! domino is [2|2]
+adding move 24! domino is [1|5]
+adding move 25! domino is None
+adding move 26! domino is None
+critical decision made!
+critical decision made!
+adding move 27! domino is [1|2]
+adding move 28! domino is [2|5]
+0
+empty hand!
+[1|2][2|2][2|3][3|6][6|4][4|4][4|0][0|5][5|5][5|3][3|3][3|4][4|5][5|6][6|6][6|2][2|4][4|1][1|0][0|6][6|1][1|5][5|2]
+(2, 11, 0)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[2|2]
+[2|3]
+[1|6]
+[1|1]
+[1|2]
+[2|5]
+[4|5]
+player 1
+[0|5]
+[1|4]
+[6|6]
+[0|6]
+[2|4]
+[0|1]
+[0|4]
+player 2
+[5|6]
+[3|4]
+[4|4]
+[3|6]
+[5|5]
+[0|2]
+[3|3]
+player 3
+[0|3]
+[1|5]
+[3|5]
+[0|0]
+[4|6]
+[2|6]
+[1|3]
+adding move 0! domino is [5|6]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 1! domino is [4|6]
+adding move 2! domino is [2|5]
+critical decision made!
+critical decision made!
+adding move 3! domino is [2|4]
+adding move 4! domino is [3|4]
+critical decision made!
+critical decision made!
+adding move 5! domino is [3|5]
+adding move 6! domino is [4|5]
+critical decision made!
+adding move 7! domino is [1|4]
+adding move 8! domino is [4|4]
+critical decision made!
+adding move 9! domino is [1|5]
+adding move 10! domino is None
+critical decision made!
+adding move 11! domino is [0|5]
+adding move 12! domino is [0|2]
+critical decision made!
+adding move 13! domino is [2|6]
+adding move 14! domino is [1|6]
+critical decision made!
+critical decision made!
+adding move 15! domino is [0|4]
+adding move 16! domino is None
+critical decision made!
+critical decision made!
+adding move 17! domino is [1|3]
+adding move 18! domino is [2|3]
+critical decision made!
+adding move 19! domino is [0|6]
+adding move 20! domino is [3|6]
+critical decision made!
+adding move 21! domino is [0|3]
+adding move 22! domino is [2|2]
+critical decision made!
+adding move 23! domino is [0|1]
+adding move 24! domino is None
+adding move 25! domino is None
+adding move 26! domino is [1|1]
+adding move 27! domino is None
+adding move 28! domino is None
+adding move 29! domino is None
+adding move 30! domino is [1|2]
+0
+empty hand!
+[1|2][2|2][2|3][3|1][1|6][6|2][2|0][0|5][5|1][1|4][4|5][5|3][3|4][4|2][2|5][5|6][6|4][4|4][4|0][0|6][6|3][3|0][0|1][1|1]
+(0, 28, 0)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[4|4]
+[2|6]
+[3|3]
+[1|3]
+[1|6]
+[5|6]
+[0|0]
+player 1
+[2|3]
+[0|3]
+[2|2]
+[0|2]
+[5|5]
+[3|5]
+[0|6]
+player 2
+[3|6]
+[1|5]
+[2|5]
+[0|1]
+[2|4]
+[1|2]
+[1|4]
+player 3
+[1|1]
+[4|6]
+[3|4]
+[4|5]
+[6|6]
+[0|5]
+[0|4]
+adding move 0! domino is [4|4]
+adding move 1! domino is None
+adding move 2! domino is [2|4]
+critical decision made!
+adding move 3! domino is [4|6]
+adding move 4! domino is [2|6]
+critical decision made!
+adding move 5! domino is [0|6]
+adding move 6! domino is [3|6]
+critical decision made!
+adding move 7! domino is [3|4]
+adding move 8! domino is [0|0]
+critical decision made!
+adding move 9! domino is [0|3]
+adding move 10! domino is [1|4]
+critical decision made!
+adding move 11! domino is [1|1]
+adding move 12! domino is [3|3]
+critical decision made!
+critical decision made!
+adding move 13! domino is [3|5]
+adding move 14! domino is [1|5]
+adding move 15! domino is None
+adding move 16! domino is [1|3]
+critical decision made!
+adding move 17! domino is [2|3]
+adding move 18! domino is [2|5]
+critical decision made!
+adding move 19! domino is [4|5]
+adding move 20! domino is [1|6]
+adding move 21! domino is None
+adding move 22! domino is None
+critical decision made!
+adding move 23! domino is [6|6]
+adding move 24! domino is [5|6]
+0
+empty hand!
+[4|5][5|2][2|3][3|1][1|5][5|3][3|3][3|0][0|0][0|6][6|2][2|4][4|4][4|6][6|3][3|4][4|1][1|1][1|6][6|6][6|5]
+(0, 29, 0)
+GAME: STARTING DOMINO =
+[6|6]
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[1|3]
+[1|2]
+[5|6]
+[0|4]
+[1|5]
+[5|5]
+[3|3]
+player 1
+[4|5]
+[3|5]
+[0|3]
+[2|3]
+[2|6]
+[4|6]
+[1|6]
+player 2
+[0|2]
+[3|6]
+[0|5]
+[2|5]
+[0|0]
+[3|4]
+[2|4]
+player 3
+[6|6]
+[2|2]
+[0|1]
+[1|1]
+[0|6]
+[4|4]
+[1|4]
+adding move 0! domino is [6|6]
+adding move 1! domino is [5|6]
+critical decision made!
+critical decision made!
+adding move 2! domino is [4|6]
+adding move 3! domino is [0|5]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 4! domino is [4|4]
+adding move 5! domino is [0|4]
+critical decision made!
+adding move 6! domino is [4|5]
+adding move 7! domino is [2|5]
+critical decision made!
+critical decision made!
+adding move 8! domino is [1|4]
+adding move 9! domino is [1|3]
+critical decision made!
+critical decision made!
+adding move 10! domino is [2|6]
+adding move 11! domino is [3|6]
+adding move 12! domino is None
+adding move 13! domino is [3|3]
+critical decision made!
+adding move 14! domino is [3|5]
+adding move 15! domino is [3|4]
+adding move 16! domino is None
+adding move 17! domino is [1|5]
+critical decision made!
+adding move 18! domino is [1|6]
+adding move 19! domino is [2|4]
+critical decision made!
+critical decision made!
+adding move 20! domino is [0|6]
+adding move 21! domino is [1|2]
+critical decision made!
+adding move 22! domino is [0|3]
+adding move 23! domino is None
+critical decision made!
+critical decision made!
+adding move 24! domino is [1|1]
+adding move 25! domino is None
+critical decision made!
+adding move 26! domino is [2|3]
+0
+empty hand!
+[2|3][3|0][0|6][6|1][1|5][5|3][3|3][3|6][6|2][2|5][5|4][4|0][0|5][5|6][6|6][6|4][4|4][4|1][1|3][3|4][4|2][2|1][1|1]
+(1, 0, 17)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[0|6]
+[5|6]
+[0|4]
+[2|6]
+[0|3]
+[3|4]
+[4|4]
+player 1
+[0|5]
+[2|2]
+[0|1]
+[1|1]
+[1|2]
+[2|3]
+[1|4]
+player 2
+[1|3]
+[2|5]
+[3|3]
+[5|5]
+[2|4]
+[6|6]
+[0|0]
+player 3
+[0|2]
+[4|5]
+[3|5]
+[3|6]
+[4|6]
+[1|5]
+[1|6]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 0! domino is [1|4]
+adding move 1! domino is [1|3]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 2! domino is [4|6]
+adding move 3! domino is [0|6]
+critical decision made!
+critical decision made!
+adding move 4! domino is [2|3]
+adding move 5! domino is [2|5]
+critical decision made!
+critical decision made!
+adding move 6! domino is [4|5]
+adding move 7! domino is [0|4]
+critical decision made!
+adding move 8! domino is [0|5]
+adding move 9! domino is [5|5]
+critical decision made!
+critical decision made!
+adding move 10! domino is [3|5]
+adding move 11! domino is [0|3]
+critical decision made!
+adding move 12! domino is [0|1]
+adding move 13! domino is [0|0]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 14! domino is [1|6]
+adding move 15! domino is [5|6]
+adding move 16! domino is None
+adding move 17! domino is None
+critical decision made!
+critical decision made!
+adding move 18! domino is [1|5]
+adding move 19! domino is None
+critical decision made!
+critical decision made!
+adding move 20! domino is [1|2]
+adding move 21! domino is [2|4]
+critical decision made!
+adding move 22! domino is [0|2]
+adding move 23! domino is [2|6]
+adding move 24! domino is None
+adding move 25! domino is [6|6]
+critical decision made!
+adding move 26! domino is [3|6]
+0
+empty hand!
+[4|2][2|1][1|5][5|6][6|1][1|0][0|3][3|5][5|5][5|0][0|4][4|5][5|2][2|3][3|1][1|4][4|6][6|0][0|0][0|2][2|6][6|6][6|3]
+(3, 0, 27)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[4|6]
+[2|3]
+[2|4]
+[1|2]
+[4|5]
+[0|4]
+[3|4]
+player 1
+[0|2]
+[5|5]
+[0|1]
+[2|5]
+[5|6]
+[1|1]
+[3|5]
+player 2
+[0|5]
+[3|3]
+[3|6]
+[0|3]
+[2|2]
+[0|0]
+[1|3]
+player 3
+[1|6]
+[1|4]
+[6|6]
+[0|6]
+[2|6]
+[4|4]
+[1|5]
+critical decision made!
+critical decision made!
+adding move 0! domino is [6|6]
+adding move 1! domino is [4|6]
+critical decision made!
+adding move 2! domino is [5|6]
+adding move 3! domino is [0|5]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 4! domino is [4|4]
+adding move 5! domino is [2|4]
+critical decision made!
+critical decision made!
+adding move 6! domino is [2|5]
+adding move 7! domino is [0|3]
+critical decision made!
+adding move 8! domino is [1|5]
+adding move 9! domino is [2|3]
+critical decision made!
+critical decision made!
+adding move 10! domino is [1|1]
+adding move 11! domino is [2|2]
+critical decision made!
+critical decision made!
+adding move 12! domino is [2|6]
+adding move 13! domino is [1|2]
+critical decision made!
+adding move 14! domino is [0|2]
+adding move 15! domino is [3|6]
+critical decision made!
+adding move 16! domino is [0|6]
+adding move 17! domino is [3|4]
+adding move 18! domino is None
+adding move 19! domino is None
+critical decision made!
+adding move 20! domino is [1|6]
+adding move 21! domino is [4|5]
+critical decision made!
+adding move 22! domino is [5|5]
+adding move 23! domino is [1|3]
+adding move 24! domino is None
+adding move 25! domino is None
+critical decision made!
+adding move 26! domino is [3|5]
+adding move 27! domino is None
+board stuck!
+[5|3][3|1][1|6][6|0][0|2][2|1][1|1][1|5][5|2][2|4][4|4][4|6][6|6][6|5][5|0][0|3][3|2][2|2][2|6][6|3][3|4][4|5][5|5]
+scores [0]: 10
+scores [1]: 6
+(2, 10, 6)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[3|6]
+[6|6]
+[0|3]
+[2|5]
+[5|5]
+[5|6]
+[0|6]
+player 1
+[1|4]
+[1|1]
+[1|2]
+[1|5]
+[1|3]
+[4|6]
+[0|0]
+player 2
+[2|4]
+[0|4]
+[0|2]
+[3|4]
+[2|3]
+[0|1]
+[2|6]
+player 3
+[0|5]
+[2|2]
+[1|6]
+[4|5]
+[3|5]
+[4|4]
+[3|3]
+adding move 0! domino is [2|4]
+critical decision made!
+critical decision made!
+adding move 1! domino is [4|5]
+adding move 2! domino is [2|5]
+critical decision made!
+adding move 3! domino is [1|5]
+adding move 4! domino is [0|1]
+critical decision made!
+critical decision made!
+adding move 5! domino is [3|5]
+adding move 6! domino is [3|6]
+critical decision made!
+adding move 7! domino is [4|6]
+adding move 8! domino is [0|4]
+critical decision made!
+adding move 9! domino is [4|4]
+adding move 10! domino is None
+critical decision made!
+adding move 11! domino is [1|4]
+adding move 12! domino is [3|4]
+critical decision made!
+adding move 13! domino is [1|6]
+adding move 14! domino is [6|6]
+critical decision made!
+adding move 15! domino is [1|3]
+adding move 16! domino is [2|6]
+critical decision made!
+adding move 17! domino is [2|2]
+adding move 18! domino is None
+critical decision made!
+critical decision made!
+adding move 19! domino is [1|2]
+adding move 20! domino is None
+adding move 21! domino is None
+adding move 22! domino is None
+critical decision made!
+adding move 23! domino is [1|1]
+adding move 24! domino is None
+board stuck!
+[1|1][1|2][2|2][2|6][6|6][6|1][1|4][4|4][4|0][0|1][1|5][5|2][2|4][4|5][5|3][3|6][6|4][4|3][3|1]
+scores [0]: 37
+scores [1]: 11
+(2, 37, 11)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[0|3]
+[4|5]
+[0|6]
+[0|4]
+[6|6]
+[0|0]
+[0|2]
+player 1
+[2|5]
+[1|5]
+[1|1]
+[4|6]
+[1|2]
+[2|3]
+[3|4]
+player 2
+[0|5]
+[2|4]
+[1|6]
+[0|1]
+[1|4]
+[2|2]
+[4|4]
+player 3
+[5|6]
+[3|5]
+[3|3]
+[3|6]
+[5|5]
+[1|3]
+[2|6]
+adding move 0! domino is [0|5]
+critical decision made!
+adding move 1! domino is [5|6]
+adding move 2! domino is [0|3]
+critical decision made!
+adding move 3! domino is [4|6]
+adding move 4! domino is [2|4]
+critical decision made!
+critical decision made!
+adding move 5! domino is [3|6]
+adding move 6! domino is [0|6]
+critical decision made!
+adding move 7! domino is [2|5]
+adding move 8! domino is [0|1]
+critical decision made!
+critical decision made!
+adding move 9! domino is [5|5]
+adding move 10! domino is [4|5]
+critical decision made!
+critical decision made!
+adding move 11! domino is [3|4]
+adding move 12! domino is [1|6]
+critical decision made!
+critical decision made!
+adding move 13! domino is [2|6]
+adding move 14! domino is [0|2]
+critical decision made!
+adding move 15! domino is [2|3]
+adding move 16! domino is [2|2]
+adding move 17! domino is None
+adding move 18! domino is [0|4]
+critical decision made!
+adding move 19! domino is [1|2]
+adding move 20! domino is [1|4]
+critical decision made!
+adding move 21! domino is [1|3]
+adding move 22! domino is None
+critical decision made!
+adding move 23! domino is [1|5]
+adding move 24! domino is None
+critical decision made!
+adding move 25! domino is [3|5]
+adding move 26! domino is None
+board stuck!
+[5|3][3|1][1|4][4|0][0|2][2|6][6|1][1|0][0|6][6|3][3|0][0|5][5|6][6|4][4|2][2|5][5|5][5|4][4|3][3|2][2|2][2|1][1|5]
+scores [0]: 20
+scores [1]: 8
+(0, 20, 8)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[0|5]
+[4|5]
+[0|4]
+[4|4]
+[1|2]
+[0|1]
+[5|6]
+player 1
+[3|5]
+[0|2]
+[2|4]
+[2|6]
+[5|5]
+[3|6]
+[4|6]
+player 2
+[2|5]
+[3|3]
+[1|1]
+[3|4]
+[1|5]
+[0|6]
+[1|4]
+player 3
+[1|3]
+[2|3]
+[0|3]
+[6|6]
+[2|2]
+[0|0]
+[1|6]
+adding move 0! domino is [0|5]
+critical decision made!
+critical decision made!
+adding move 1! domino is [5|5]
+adding move 2! domino is [2|5]
+critical decision made!
+adding move 3! domino is [2|3]
+adding move 4! domino is [0|4]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 5! domino is [4|6]
+adding move 6! domino is [3|3]
+critical decision made!
+critical decision made!
+adding move 7! domino is [6|6]
+adding move 8! domino is [5|6]
+critical decision made!
+critical decision made!
+adding move 9! domino is [3|6]
+adding move 10! domino is [1|5]
+critical decision made!
+critical decision made!
+adding move 11! domino is [1|6]
+adding move 12! domino is None
+critical decision made!
+adding move 13! domino is [2|6]
+adding move 14! domino is [0|6]
+critical decision made!
+critical decision made!
+adding move 15! domino is [2|2]
+adding move 16! domino is [1|2]
+critical decision made!
+adding move 17! domino is [0|2]
+adding move 18! domino is [1|1]
+critical decision made!
+adding move 19! domino is [1|3]
+adding move 20! domino is None
+critical decision made!
+adding move 21! domino is [3|5]
+adding move 22! domino is None
+adding move 23! domino is None
+adding move 24! domino is [4|5]
+critical decision made!
+adding move 25! domino is [2|4]
+0
+empty hand!
+[2|4][4|5][5|3][3|1][1|1][1|2][2|2][2|6][6|1][1|5][5|6][6|6][6|4][4|0][0|5][5|5][5|2][2|3][3|3][3|6][6|0][0|2]
+(1, 0, 24)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[0|0]
+[0|3]
+[3|4]
+[1|6]
+[1|1]
+[2|2]
+[2|6]
+player 1
+[2|3]
+[0|4]
+[3|3]
+[1|4]
+[3|6]
+[0|5]
+[0|1]
+player 2
+[2|5]
+[1|3]
+[6|6]
+[4|5]
+[4|4]
+[2|4]
+[1|2]
+player 3
+[5|6]
+[1|5]
+[0|2]
+[0|6]
+[5|5]
+[3|5]
+[4|6]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 0! domino is [3|6]
+adding move 1! domino is [1|3]
+critical decision made!
+adding move 2! domino is [5|6]
+adding move 3! domino is [1|6]
+critical decision made!
+adding move 4! domino is [0|5]
+adding move 5! domino is [6|6]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 6! domino is [4|6]
+adding move 7! domino is [0|0]
+critical decision made!
+critical decision made!
+adding move 8! domino is [1|4]
+adding move 9! domino is [1|2]
+critical decision made!
+critical decision made!
+adding move 10! domino is [0|6]
+adding move 11! domino is [2|2]
+critical decision made!
+adding move 12! domino is [2|3]
+adding move 13! domino is None
+critical decision made!
+adding move 14! domino is [3|5]
+adding move 15! domino is [2|6]
+adding move 16! domino is None
+adding move 17! domino is [2|5]
+critical decision made!
+adding move 18! domino is [0|2]
+adding move 19! domino is [0|3]
+critical decision made!
+adding move 20! domino is [3|3]
+adding move 21! domino is [2|4]
+adding move 22! domino is None
+adding move 23! domino is [3|4]
+critical decision made!
+adding move 24! domino is [0|4]
+adding move 25! domino is [4|5]
+critical decision made!
+critical decision made!
+adding move 26! domino is [5|5]
+adding move 27! domino is None
+critical decision made!
+adding move 28! domino is [0|1]
+0
+empty hand!
+[1|0][0|4][4|3][3|3][3|0][0|2][2|5][5|3][3|2][2|2][2|1][1|4][4|6][6|6][6|1][1|3][3|6][6|5][5|0][0|0][0|6][6|2][2|4][4|5][5|5]
+(1, 0, 16)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[2|2]
+[5|5]
+[1|1]
+[0|3]
+[1|5]
+[0|0]
+[1|4]
+player 1
+[3|5]
+[4|4]
+[2|5]
+[0|1]
+[6|6]
+[0|5]
+[2|3]
+player 2
+[3|6]
+[0|2]
+[1|3]
+[3|3]
+[1|6]
+[5|6]
+[0|6]
+player 3
+[3|4]
+[1|2]
+[4|5]
+[0|4]
+[2|4]
+[2|6]
+[4|6]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 0! domino is [6|6]
+adding move 1! domino is [3|6]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 2! domino is [4|6]
+adding move 3! domino is [0|3]
+critical decision made!
+adding move 4! domino is [4|4]
+adding move 5! domino is [0|2]
+critical decision made!
+critical decision made!
+adding move 6! domino is [4|5]
+adding move 7! domino is [2|2]
+critical decision made!
+adding move 8! domino is [3|5]
+adding move 9! domino is [1|3]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 10! domino is [2|6]
+adding move 11! domino is [1|1]
+critical decision made!
+adding move 12! domino is [0|1]
+adding move 13! domino is [1|6]
+critical decision made!
+critical decision made!
+adding move 14! domino is [0|4]
+adding move 15! domino is [1|5]
+critical decision made!
+adding move 16! domino is [2|5]
+adding move 17! domino is None
+critical decision made!
+adding move 18! domino is [3|4]
+adding move 19! domino is None
+critical decision made!
+adding move 20! domino is [2|3]
+adding move 21! domino is [3|3]
+adding move 22! domino is None
+board stuck!
+[3|3][3|2][2|5][5|1][1|6][6|2][2|2][2|0][0|3][3|6][6|6][6|4][4|4][4|5][5|3][3|1][1|1][1|0][0|4][4|3]
+scores [0]: 32
+scores [1]: 14
+(3, 32, 14)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[3|5]
+[0|4]
+[2|3]
+[2|4]
+[1|5]
+[0|6]
+[1|6]
+player 1
+[3|3]
+[0|3]
+[1|4]
+[2|2]
+[3|4]
+[6|6]
+[2|5]
+player 2
+[4|6]
+[0|0]
+[3|6]
+[1|2]
+[0|1]
+[1|1]
+[0|2]
+player 3
+[5|6]
+[4|5]
+[1|3]
+[2|6]
+[4|4]
+[0|5]
+[5|5]
+critical decision made!
+adding move 0! domino is [5|6]
+adding move 1! domino is [3|5]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 2! domino is [6|6]
+adding move 3! domino is [4|6]
+critical decision made!
+adding move 4! domino is [4|5]
+adding move 5! domino is [2|3]
+critical decision made!
+critical decision made!
+adding move 6! domino is [2|5]
+adding move 7! domino is None
+critical decision made!
+critical decision made!
+adding move 8! domino is [5|5]
+adding move 9! domino is [1|5]
+critical decision made!
+adding move 10! domino is [1|4]
+adding move 11! domino is None
+critical decision made!
+adding move 12! domino is [4|4]
+adding move 13! domino is [0|4]
+critical decision made!
+adding move 14! domino is [0|3]
+adding move 15! domino is [3|6]
+critical decision made!
+adding move 16! domino is [2|6]
+adding move 17! domino is [2|4]
+critical decision made!
+adding move 18! domino is [3|4]
+adding move 19! domino is None
+critical decision made!
+critical decision made!
+adding move 20! domino is [0|5]
+adding move 21! domino is [0|6]
+critical decision made!
+adding move 22! domino is [3|3]
+adding move 23! domino is None
+critical decision made!
+adding move 24! domino is [1|3]
+0
+empty hand!
+[1|3][3|3][3|4][4|2][2|6][6|3][3|0][0|4][4|4][4|1][1|5][5|5][5|2][2|3][3|5][5|6][6|6][6|4][4|5][5|0][0|6]
+(3, 0, 19)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[1|5]
+[3|4]
+[4|5]
+[1|6]
+[3|5]
+[2|6]
+[0|2]
+player 1
+[3|6]
+[1|4]
+[1|3]
+[5|5]
+[1|1]
+[5|6]
+[2|2]
+player 2
+[4|4]
+[2|5]
+[2|3]
+[1|2]
+[2|4]
+[6|6]
+[0|4]
+player 3
+[0|5]
+[3|3]
+[0|1]
+[0|0]
+[4|6]
+[0|6]
+[0|3]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 0! domino is [4|6]
+adding move 1! domino is [3|4]
+critical decision made!
+critical decision made!
+adding move 2! domino is [5|6]
+adding move 3! domino is [2|5]
+critical decision made!
+adding move 4! domino is [3|3]
+adding move 5! domino is [3|5]
+critical decision made!
+adding move 6! domino is [5|5]
+adding move 7! domino is [2|3]
+critical decision made!
+adding move 8! domino is [0|5]
+adding move 9! domino is [0|2]
+critical decision made!
+adding move 10! domino is [3|6]
+adding move 11! domino is [1|2]
+critical decision made!
+critical decision made!
+adding move 12! domino is [0|6]
+adding move 13! domino is [1|5]
+adding move 14! domino is None
+adding move 15! domino is [0|4]
+adding move 16! domino is None
+adding move 17! domino is [4|5]
+critical decision made!
+adding move 18! domino is [1|4]
+adding move 19! domino is [4|4]
+critical decision made!
+adding move 20! domino is [0|1]
+adding move 21! domino is None
+adding move 22! domino is None
+adding move 23! domino is [2|4]
+critical decision made!
+critical decision made!
+adding move 24! domino is [0|3]
+adding move 25! domino is [2|6]
+critical decision made!
+adding move 26! domino is [1|3]
+adding move 27! domino is [6|6]
+0
+empty hand!
+[1|3][3|0][0|1][1|4][4|5][5|1][1|2][2|0][0|5][5|5][5|3][3|3][3|4][4|6][6|5][5|2][2|3][3|6][6|0][0|4][4|4][4|2][2|6][6|6]
+(2, 13, 0)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[1|6]
+[0|5]
+[0|2]
+[0|6]
+[1|5]
+[4|4]
+[1|2]
+player 1
+[2|2]
+[6|6]
+[0|4]
+[3|3]
+[2|6]
+[3|5]
+[0|1]
+player 2
+[5|5]
+[2|5]
+[1|4]
+[2|4]
+[1|1]
+[0|0]
+[3|6]
+player 3
+[5|6]
+[1|3]
+[4|5]
+[3|4]
+[0|3]
+[4|6]
+[2|3]
+adding move 0! domino is [5|5]
+critical decision made!
+adding move 1! domino is [5|6]
+adding move 2! domino is [1|6]
+critical decision made!
+adding move 3! domino is [3|5]
+adding move 4! domino is [1|4]
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 5! domino is [4|6]
+adding move 6! domino is [0|6]
+critical decision made!
+critical decision made!
+adding move 7! domino is [3|3]
+adding move 8! domino is [0|0]
+critical decision made!
+critical decision made!
+adding move 9! domino is [3|4]
+adding move 10! domino is [0|5]
+critical decision made!
+adding move 11! domino is [0|4]
+adding move 12! domino is [2|5]
+critical decision made!
+critical decision made!
+adding move 13! domino is [2|3]
+adding move 14! domino is [0|2]
+critical decision made!
+critical decision made!
+adding move 15! domino is [2|6]
+adding move 16! domino is [3|6]
+adding move 17! domino is None
+adding move 18! domino is None
+critical decision made!
+adding move 19! domino is [6|6]
+adding move 20! domino is None
+board stuck!
+[6|6][6|3][3|2][2|5][5|0][0|0][0|6][6|4][4|1][1|6][6|5][5|5][5|3][3|3][3|4][4|0][0|2][2|6]
+scores [0]: 25
+scores [1]: 21
+(2, 25, 21)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[3|6]
+[1|5]
+[2|5]
+[4|4]
+[2|4]
+[0|1]
+[5|5]
+player 1
+[5|6]
+[1|6]
+[3|5]
+[1|2]
+[6|6]
+[2|3]
+[3|3]
+player 2
+[0|2]
+[1|4]
+[0|0]
+[0|4]
+[0|3]
+[4|5]
+[2|6]
+player 3
+[1|3]
+[4|6]
+[3|4]
+[1|1]
+[2|2]
+[0|6]
+[0|5]
+adding move 0! domino is [0|2]
+critical decision made!
+critical decision made!
+adding move 1! domino is [0|6]
+adding move 2! domino is [3|6]
+critical decision made!
+adding move 3! domino is [3|5]
+adding move 4! domino is [4|5]
+critical decision made!
+adding move 5! domino is [4|6]
+adding move 6! domino is [2|5]
+critical decision made!
+critical decision made!
+adding move 7! domino is [6|6]
+adding move 8! domino is [2|6]
+critical decision made!
+critical decision made!
+adding move 9! domino is [0|5]
+adding move 10! domino is [2|4]
+adding move 11! domino is None
+adding move 12! domino is [1|4]
+critical decision made!
+adding move 13! domino is [1|3]
+adding move 14! domino is [0|1]
+critical decision made!
+adding move 15! domino is [1|6]
+adding move 16! domino is [0|3]
+adding move 17! domino is None
+adding move 18! domino is None
+critical decision made!
+adding move 19! domino is [5|6]
+adding move 20! domino is [0|0]
+adding move 21! domino is None
+adding move 22! domino is [1|5]
+critical decision made!
+adding move 23! domino is [1|2]
+adding move 24! domino is [0|4]
+0
+empty hand!
+[4|0][0|0][0|3][3|1][1|4][4|2][2|6][6|6][6|4][4|5][5|3][3|6][6|0][0|2][2|5][5|0][0|1][1|6][6|5][5|1][1|2]
+(2, 42, 0)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[5|6]
+[1|1]
+[0|2]
+[4|5]
+[2|6]
+[0|1]
+[2|5]
+player 1
+[2|3]
+[6|6]
+[5|5]
+[3|4]
+[1|3]
+[4|4]
+[1|5]
+player 2
+[0|0]
+[0|4]
+[0|6]
+[0|5]
+[2|4]
+[1|6]
+[1|4]
+player 3
+[1|2]
+[2|2]
+[3|6]
+[4|6]
+[3|3]
+[3|5]
+[0|3]
+adding move 0! domino is [0|0]
+critical decision made!
+adding move 1! domino is [0|3]
+adding move 2! domino is [0|2]
+critical decision made!
+critical decision made!
+adding move 3! domino is [3|4]
+adding move 4! domino is [0|4]
+critical decision made!
+critical decision made!
+adding move 5! domino is [2|2]
+adding move 6! domino is [2|6]
+critical decision made!
+adding move 7! domino is [6|6]
+adding move 8! domino is [0|6]
+critical decision made!
+critical decision made!
+adding move 9! domino is [4|6]
+adding move 10! domino is [5|6]
+critical decision made!
+adding move 11! domino is [5|5]
+adding move 12! domino is [0|5]
+adding move 13! domino is None
+adding move 14! domino is [4|5]
+critical decision made!
+adding move 15! domino is [1|5]
+adding move 16! domino is [1|6]
+critical decision made!
+adding move 17! domino is [3|6]
+adding move 18! domino is [0|1]
+critical decision made!
+adding move 19! domino is [2|3]
+adding move 20! domino is [2|4]
+critical decision made!
+adding move 21! domino is [1|2]
+adding move 22! domino is [2|5]
+critical decision made!
+adding move 23! domino is [4|4]
+adding move 24! domino is [1|4]
+0
+empty hand!
+[1|4][4|4][4|2][2|3][3|6][6|1][1|5][5|4][4|6][6|0][0|4][4|3][3|0][0|0][0|2][2|2][2|6][6|6][6|5][5|5][5|0][0|1][1|2][2|5]
+(2, 20, 0)
+GAME: STARTING DOMINO =
+None
+adding player with attribute 1
+adding player with attribute 2
+adding player with attribute 1
+adding player with attribute 2
+player 0
+[0|6]
+[1|5]
+[1|3]
+[0|4]
+[4|5]
+[1|1]
+[3|5]
+player 1
+[3|4]
+[5|6]
+[3|3]
+[2|5]
+[0|5]
+[0|0]
+[0|1]
+player 2
+[6|6]
+[2|4]
+[4|6]
+[0|2]
+[2|3]
+[1|4]
+[4|4]
+player 3
+[1|6]
+[0|3]
+[1|2]
+[3|6]
+[5|5]
+[2|2]
+[2|6]
+adding move 0! domino is [6|6]
+critical decision made!
+critical decision made!
+adding move 1! domino is [3|6]
+adding move 2! domino is [0|6]
+critical decision made!
+adding move 3! domino is [3|4]
+adding move 4! domino is [2|4]
+critical decision made!
+critical decision made!
+critical decision made!
+critical decision made!
+adding move 5! domino is [2|6]
+adding move 6! domino is [0|4]
+critical decision made!
+adding move 7! domino is [5|6]
+adding move 8! domino is [4|6]
+critical decision made!
+critical decision made!
+adding move 9! domino is [5|5]
+adding move 10! domino is [1|5]
+critical decision made!
+adding move 11! domino is [0|1]
+adding move 12! domino is [0|2]
+critical decision made!
+adding move 13! domino is [1|6]
+adding move 14! domino is [1|3]
+critical decision made!
+critical decision made!
+adding move 15! domino is [2|5]
+adding move 16! domino is [2|3]
+critical decision made!
+critical decision made!
+adding move 17! domino is [2|2]
+adding move 18! domino is [4|5]
+adding move 19! domino is None
+adding move 20! domino is [1|4]
+critical decision made!
+adding move 21! domino is [1|2]
+adding move 22! domino is None
+board stuck!
+[2|1][1|4][4|5][5|2][2|0][0|1][1|5][5|5][5|6][6|2][2|4][4|3][3|6][6|6][6|0][0|4][4|6][6|1][1|3][3|2][2|2]
+scores [0]: 18
+scores [1]: 14
+(0, 18, 14)
+[[201, 57], [217, 177]]
+[2, 0]

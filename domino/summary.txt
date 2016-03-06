@@ -1,0 +1,23 @@
+summary:
+Defensive beats random 75% of time, greedy 80-85%
+Random beats greedy 60% of time
+
+Random, anti-greedy, cooperative, offensive all about equal
+anitgreedy beats greedy about 55% of time
+
+time:
+runs 1000 games in 5.8 seconds with strategy
+				   4.2 seconds without strategy (random moves)
+runs 100,000 games in 
+
+ways to improve:
+	performance:
+		sort has_played[] and hand[] for better retrieval, insertion
+		reduce number of nested for loops
+		reduce number operations in play_sets for loop
+	strategy:
+		add more complex games - games of Fives, where only
+			multiples of fives are scored. This would change
+			preference algorithm to prioritize scoring moves
+		flush out offense/defense to incorporate doubles etc.
+		make varying difficulty levels
