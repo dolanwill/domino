@@ -1,10 +1,6 @@
 import collections
 import random
-import json
 
-
-# added sum and double functions, and operator overloads, for later use in
-# preferential strategies
 class Domino:
     def __init__(self, first, second):
         self.first = first
@@ -27,10 +23,10 @@ class Domino:
             or (self.first, self.second) == (other.second, other.first)
 
     def __ge__(self, other):
-        return (self.point_sum() >= other.point_sum())
+        return self.point_sum() >= other.point_sum()
 
     def __le__(self, other):
-        return (self.point_sum() <= other.point_sum())
+        return self.point_sum() <= other.point_sum()
 
     def __ne__(self, other):
         return not self == other
@@ -71,7 +67,7 @@ class Board:
             self.board.append(domino.inverted())
         else:
             raise Exception('{0} cannot be added to the right of'
-                            ' the board -numbers do not match!'.format(domino))
+                            ' the board- numbers do not match!'.format(domino))
 
     def __len__(self):
         return len(self.board)
@@ -81,50 +77,26 @@ class Board:
 
 class Player:
     # hand is an array of dominos
-    def __init__(self, hand, attribute=0):
+    def __init__(self, hand, strategy):
         self.hand = hand
-        self.attribute = attribute
-        self.behaviors = { 1: self.random,
-                           2 : self.greedy,
-                           3 : self.defensive,
-                           4 : self.reverse_greedy,
-                           5 : self.cooperative,
-                           6: self.offensive,
-                           "random": self.random,
-                           "greedy": self.greedy,
-                           "defensive": self.defensive,
-                           "reverse_greedy": self.reverse_greedy,
-                           "cooperative": self.cooperative,
-                           "offensive": self.offensive
-        }
+        self.strategy = strategy
         self.has_played = []
 
     def has_empty_hand(self):
-        has = bool(len(self.hand))
-        return not has
+        return not self.hand
 
     def remaining_pts(self):
-        player_points = 0
-        for domino in self.hand:
-            player_points += domino.point_sum()
-        return player_points
+        return sum([domino.point_sum() for domino in self.hand])
 
-    def print_hand(self):
-        for domino in self.hand:
-            print domino
-
-    # for first move of game, they'll be -1,-1
     def valid_moves(self, left_end, right_end):
         #return all if all are valid
         if (left_end is None and right_end is None):
-            return [domino for domino in self.hand]
+            return self.hand
 
         moves = []
 
         for domino in self.hand:
-            if left_end in domino:
-                moves.append(domino)
-            elif right_end in domino:
+            if left_end in domino or right_end in domino:
                 moves.append(domino)
 
         return moves
@@ -133,7 +105,9 @@ class Player:
         if(len(moves) == 0):
             return None
         else:
-            return self.behaviors[self.attribute](moves, players, index)
+            return behaviors[self.strategy](self, moves, players, index)
+
+############# Below are the Player Strategies available #############
 
     def greedy(self, dominos, players, turn):
         best = Domino(0,0)
@@ -146,11 +120,10 @@ class Player:
     def defensive(self, dominos, players, turn):
         best = dominos[0]
         for domino in dominos:
-            if (domino.is_double() is True):
+            if domino.is_double():
                 return domino
-            elif (domino >= best):
-                best = domino
-        return best
+
+        return self.greedy(dominos, players, turn)
 
     def reverse_greedy(self, dominos, players, turn):
         best = Domino(6,6)
@@ -160,7 +133,7 @@ class Player:
         return best
 
     def random(self, dominos, players, turn):
-        return dominos[0]
+        return random.choice(dominos)
 
     def cooperative(self, dominos, players, turn):
         best = dominos[0]
@@ -183,32 +156,41 @@ class Player:
     def offensive(self, dominos, players, turn):
         best = dominos[0]
         updated = False
-        opponent_indices = [0,0]
-        opponent_indices[0] = (turn + 1) % 4
-        opponent_indices[1] = (turn + 3) % 4
+        opp_i = [0,0]
+        opp_i[0] = (turn + 1) % 4
+        opp_i[1] = (turn + 3) % 4
+        opp_moves = players[opp_i[0]].has_played + players[opp_i[1]].has_played
 
         for domino in dominos:
-            for opp_domino in players[opponent_indices[0]].has_played:
-                if(domino == opp_domino):
+            for opp_d in opp_moves:
+                if(domino == opp_d):
                     if (domino.is_double() is True):
                         return domino
                     elif (domino >= best):
                         best = domino
                         updated = True
-            for opp_domino in players[opponent_indices[1]].has_played:
-                if(domino == opp_domino):
-                    if (domino.is_double() is True):
-                        return domino
-                    elif (domino >= best):
-                        best = domino
-                        updated = True
+
         if updated is True:
             return best
         else:
             return self.random(dominos, players, turn)
 
     def __str__(self):
-        return ''.join([str(domino) for domino in self.board])
+        return ''.join([str(domino) for domino in self.hand])
+
+behaviors = {  1: Player.random,
+               2: Player.greedy,
+               3: Player.defensive,
+               4: Player.reverse_greedy,
+               5: Player.cooperative,
+               6: Player.offensive,
+               'random': Player.random,
+               'greedy': Player.greedy,
+               'defensive': Player.defensive,
+               'reverse_greedy': Player.reverse_greedy,
+               'cooperative': Player.cooperative,
+               'offensive': Player.offensive
+}
 
 
 
@@ -222,7 +204,6 @@ class Game:
         self.turn_index = starting_player
 
         self.scores = [0,0]
-        self.turn_number = 0
         self.turn = self.players[starting_player]
 
         if starting_dom is None:
@@ -265,11 +246,11 @@ class Game:
         left_end, right_end = self.board.ends()
 
         moves = curr_player.valid_moves(left_end, right_end)
-        domino_move = curr_player.move_selection(moves, self.players, self.turn_index)
+        domino_move = curr_player.move_selection(moves, self.players, 
+                                                    self.turn_index)
         return self.commit_move(curr_player, domino_move)
 
     def commit_move(self, curr_player, domino_move):
-        self.turn_number += 1
         if not self.board:
             self.board.add_right(domino_move)
             curr_player.hand.remove(domino_move)
