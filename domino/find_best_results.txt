@@ -1,0 +1,11 @@
+[1. random] [2. greedy] [3. defensive] [4. antigreedy]
+[5. cooperative] [6. offensive]
+Team being tested: 3, 3
+Wins - 2284; Losses - 1316
+
+Team being tested: 3, 5
+Wins - 2264; Losses - 1336
+
+Team being tested: 3, 6
+Wins - 2313; Losses - 1287
+
